@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resurcer til hjemløse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="doCookie()"> 
+    <h1>MEFI's tabeller</h1>
+    <hr>
+
+    <h2>Resurse tabel med dummy data</h2>
+    <table class="dummytable">
+        <th>By</th>
+        <th>Kategori</th>
+        <th>Navn</th>
+        <th>Beskrivelse</th>
+        <th>Adresse</th>
+        <th>Telefon</th>
+        <th>Åbningstider</th>
+        <th>Webside</th>
+        <tr>
+            <td>Næstved</td>
+            <td>Bosted</td>
+            <td>Flexbostøtten</td>
+            <td>Hjælper med bolig</td>
+            <td>Eksempelvej 10</td>
+            <td>92382913</td>
+            <td>Ma-To 14-16</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Roskilde</td>
+            <td>Mad</td>
+            <td>Fristedet</td>
+            <td>Hjælper med mad</td>
+            <td>Eksempelvej 16</td>
+            <td>19238293</td>
+            <td>Ti-To 14-16</td>
+            <td>http://www.fristedetx.dk</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h3><u>tabel med statisk data</u></h3>
+    <table id="myTable" class="realtable">
+        <tr>
+            <th>By</th>
+            <th>Kategori</th>
+            <th>Navn</th>
+            <th>Beskrivelse</th>
+            <th>Adresse</th>
+            <th>Telefon</th>
+            <th>Åbningstider</th>
+            <th>Webside</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+    <br>
+    <p id="date" class="date"></p>
+    <script src="dateScript.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

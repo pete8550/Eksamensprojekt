@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: wheat;
+    }
+
+.dummytable {
+    background-color: #bd2d2d;
+}
+
+.realtable {
+    background-color: green;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.date {
+    position:absolute;
+    bottom:0;
+    right:0;
+}

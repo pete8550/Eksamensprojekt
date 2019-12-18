@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Indtast ny resurse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="nyResurse">Indtast en ny resurse!</h1>
+        <form action="/api/resurse" method="POST">
+            <input placeholder="By" name="create_by"/>
+            <input placeholder="Kategori" name="create_kategori"/>
+            <input placeholder="Navn" name="create_navn"/>
+            <input placeholder="Beskrivelse" name="create_beskrivelse"/>
+            <input placeholder="Adresse" name="create_adresse"/>
+            <input placeholder="Telefon" name="create_telefon"/>
+            <input placeholder="Åbningstider" name="create_åbningstider"/>
+            <input placeholder="Webside" name="create_webside"/>
+            <button>Opret</button>
+    </form>
+</body>
+</html>
